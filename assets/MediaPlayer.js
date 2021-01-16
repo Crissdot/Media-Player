@@ -19,7 +19,7 @@ MediaPlayer.prototype.pause = function() {
     this.media.pause();
 }
 
-MediaPlayer.prototype.toggle = function() {
+MediaPlayer.prototype.playToggle = function() {
     if(this.media.paused) this.play();
     else this.pause();
 }
@@ -30,6 +30,11 @@ MediaPlayer.prototype.mute = function() {
 
 MediaPlayer.prototype.unmute = function() {
     this.media.muted = false;
+}
+
+MediaPlayer.prototype.muteToggle = function() {
+    if(this.media.muted) this.unmute();
+    else this.mute();
 }
 
 export default MediaPlayer;
