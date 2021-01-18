@@ -1,0 +1,27 @@
+{
+  "name": "mediaplayer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "dependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Crissdot/Media-Player.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Crissdot/Media-Player/issues"
+  },
+  "homepage": "https://github.com/Crissdot/Media-Player#readme",
+  "browserlist": [
+    "last 1 Chrome version"
+  ]
+}
